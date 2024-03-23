@@ -116,11 +116,12 @@ const ContainerButton = styled.div`
     align-items: center;
     justify-content: flex-start;
     width: fit-content;
-    padding: 0px 10px;
-    height: 20px;
+    padding: 2px 10px;
+    height: 17px;
     margin-top: 15px;
     background-color: #4a00ff; 
     border-radius: 15px;
+    margin-bottom: 10px;
 `; 
 
 const ButtonTitle = styled.span`

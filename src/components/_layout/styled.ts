@@ -13,7 +13,7 @@ const ContainerChildren = styled.div`
     align-items: center;
     width: 100%;
     margin: 20px 20px 20px 0px;
-    padding: 10px 20px;
+    padding: 20px 40px;
     background-color: #FFFF;
     border-radius: 10px;
 `;
