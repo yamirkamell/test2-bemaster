@@ -38,11 +38,11 @@ const data = [
   }
 ]
 const Home = () => {
-  /*const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSelectFolder = () => {
-    navigate('/');
-  };*/
+    navigate('/content-folder');
+  };
 
   return (
     <Layout>
@@ -82,7 +82,7 @@ const Home = () => {
           <DividerComponent />
           {data?.map((item) => (
             <>
-              <ContainerTitles id='data'>
+              <ContainerTitles id='data' onClick={()=>{handleSelectFolder()}}>
               <input type='checkbox' />
               <TextComponent> <IconName/> {item.name} </TextComponent>
               <TextComponent id='center'> {item.videos} </TextComponent>
